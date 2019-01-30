@@ -1,0 +1,20 @@
+In the README, I explained how to run the four functions you need and what
+their parameters are.
+
+To test my code, keep in mind that semantic orientation is subjective, so
+there isn't a clear-cut answer.
+
+First, create a new file and fill it with tweets. You may also append to one
+of my files if you please. Use the start_stream or user_tweets_to_file
+function to do this. start_stream will append; user_tweets_to_file will
+overwrite.
+
+Then, run the get_association function to see what a particular word's
+orientation is. Don't use an obscure word. Use a word that has probably shown
+up many times in those tweets, or you will get uninformative results. For
+example, if you are testing tweets about a live sports game, try using one of
+the team's names.
+
+To see how accurate it was, you can use the get_tweets_with_word function to
+print out all tweets that had that word. You can then get a brief glimpse of
+the public opinion regarding that word or idea.
